@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1st-post on One Way Conversation from a Cranky Sysadmin</title>
+    <link>/tags/1st-post/</link>
+    <description>Recent content in 1st-post on One Way Conversation from a Cranky Sysadmin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/1st-post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello World</title>
+      <link>/posts/hello-world/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/hello-world/</guid>
+      <description>I used to run a wordpress site at this location. Maintaining WP was tedious with all of the security updates, so I&amp;rsquo;m going to try a static site generator. I selected Hugo because it seems easy to use.
+Topics may or may not include:
+ Electronics Amateur Radio Sysadmin Rants Programming Gaming Navel Gazing  </description>
+    </item>
+    
+  </channel>
+</rss>

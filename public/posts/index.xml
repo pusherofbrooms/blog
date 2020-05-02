@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on One Way Conversation from a Cranky Sysadmin</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on One Way Conversation from a Cranky Sysadmin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 May 2020 09:35:00 -0400</lastBuildDate>
+    
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Letsencrypt</title>
+      <link>/posts/letsencrypt/</link>
+      <pubDate>Fri, 01 May 2020 09:35:00 -0400</pubDate>
+      
+      <guid>/posts/letsencrypt/</guid>
+      <description>I finally got around to setting up letsencrypt certs on this blog site. It&amp;rsquo;s a lot easier than I expected. The letsencrypt website has great docs, and certbot seems to be pretty smart about detecting and adding the certs used by my apache webserver.
+The letsencrypt ssl options overwrote my site specific options and enabled TLSv1 and TLSv1.1, which is easy enough to rectify in /etc/letsencrypt/options-ssl-apache.conf.</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>/posts/hello-world/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/hello-world/</guid>
+      <description>I used to run a wordpress site at this location. Maintaining WP was tedious with all of the security updates, so I&amp;rsquo;m going to try a static site generator. I selected Hugo because it seems easy to use.
+Topics may or may not include:
+ Electronics Amateur Radio Sysadmin Rants Programming Gaming Navel Gazing  </description>
+    </item>
+    
+  </channel>
+</rss>

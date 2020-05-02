@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sysadmin on One Way Conversation from a Cranky Sysadmin</title>
+    <link>/tags/sysadmin/</link>
+    <description>Recent content in sysadmin on One Way Conversation from a Cranky Sysadmin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 May 2020 09:35:00 -0400</lastBuildDate>
+    
+	<atom:link href="/tags/sysadmin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Letsencrypt</title>
+      <link>/posts/letsencrypt/</link>
+      <pubDate>Fri, 01 May 2020 09:35:00 -0400</pubDate>
+      
+      <guid>/posts/letsencrypt/</guid>
+      <description>I finally got around to setting up letsencrypt certs on this blog site. It&amp;rsquo;s a lot easier than I expected. The letsencrypt website has great docs, and certbot seems to be pretty smart about detecting and adding the certs used by my apache webserver.
+The letsencrypt ssl options overwrote my site specific options and enabled TLSv1 and TLSv1.1, which is easy enough to rectify in /etc/letsencrypt/options-ssl-apache.conf.</description>
+    </item>
+    
+  </channel>
+</rss>
