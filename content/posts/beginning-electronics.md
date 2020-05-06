@@ -17,7 +17,7 @@ If I had to start all over today with nothing but curiosity and a very limited b
 3. **Hand Tools** Get a nice wire stripper, diagnal cutters, magnifying glass, good lighting, screwdrivers, and assorted other tools to make your life easier.
 4. **Safety Gear** Before getting into soldering components, you should probably get a pair of safety glasses and a fume extractor. If you can't afford a fume extractor, you'll need to work in a well ventelated area.
 4. **Consumables** You will probably need shrink tubing, solder, solder wick, electrical tape (but try to use shrink tubing where possible), and solder flux (avoid the acid flux).
-5. **Soldering Station** Again, whatever you can afford but I suggest something with a nice base and adjustable temperature. Learning to solder essential to working on more complex projects that a breadboard can handle. A soldering station, especially one with a hot air gun, is great for salvaging components, though it's almost all going to be surface mount stuff that is hard for a beginner to handle.
+5. **Soldering Station** Again, whatever you can afford but I suggest something with a nice base and adjustable temperature. Learning to solder is essential to working on more complex projects that a breadboard can handle. A soldering station, especially one with a hot air gun, is great for salvaging components, though it's almost all going to be surface mount stuff that is hard for a beginner to handle.
 6. **prototyping board or copper clad pcb** Consider getting this around the same time as your soldering station. A nice selection can be had for $20 or less to get you going.
 7. **moar components!!** Find a "electronics assortment" on an auction site or retail mall. A good assortment will cost between $40 and $100. It should include:
     * resistors
@@ -31,4 +31,4 @@ If I had to start all over today with nothing but curiosity and a very limited b
 
 Once you are at the end of this list, you are probably getting a sense of what you want to specialize in. If you get into radio electronics, you may want to look into a nice spectrum analyzer. If you are more into digital electronics, a logic analyzer may be more your speed. As you get into more high speed circuits, you will probably find the limits of your current cheap test equipment and will pine for better. Much like any hobby, there is always a place to spend more and more money.
 
-My next electronics post will explore the Arduino and using it to explore RC (resistor - capacitor) circuits.
+My next electronics post will explore the Arduino and using it to investigate RC (resistor - capacitor) circuits.
