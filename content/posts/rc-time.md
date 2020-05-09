@@ -82,7 +82,7 @@ Below, we set the `CHARGEPIN` to 5 volts (HIGH), and as in the above for loop, w
   // set the CHARGEPIN high to charge capacitor.
   Serial.println("Setting_Charge_HIGH");
   digitalWrite(CHARGEPIN, HIGH);
-  for (int i=0; i<=50; i++){
+  for (int i=0; i<50; i++){
     charge = analogRead(CHARGEREAD);
     Serial.println(charge);
     delay(DELAY);
@@ -140,7 +140,7 @@ void loop() {
   // set the CHARGEPIN low to discharge capacitor.
   Serial.println("Setting_Charge_LOW");
   digitalWrite(CHARGEPIN, LOW);
-  for (int i=0; i<=50; i++){
+  for (int i=0; i<50; i++){
     charge = analogRead(CHARGEREAD);
     Serial.println(charge);
     delay(DELAY);
@@ -148,7 +148,7 @@ void loop() {
   // set the CHARGEPIN high to charge capacitor.
   Serial.println("Setting_Charge_HIGH");
   digitalWrite(CHARGEPIN, HIGH);
-  for (int i=0; i<=50; i++){
+  for (int i=0; i<50; i++){
     charge = analogRead(CHARGEREAD);
     Serial.println(charge);
     delay(DELAY);
