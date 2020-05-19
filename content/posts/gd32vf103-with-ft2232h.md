@@ -67,3 +67,22 @@ Pushing the reset button doesn't seem to start the program, but when I disconnec
 One of the sharp edges that I tripped over was the fact that the RGB led is connected to the power rail instead of ground like it is on the Arduino. This means that setting the LED pin to LOW turns on the LED.
 
 Now that I've done all this hacking about in platformio, it's probably time to make up a couple of PR's so that hopefully, other folks won't need to do all of this discovery themselves.
+
+**Update 2020-05-19**
+I had forgotten about a problem I had when trying to upload through the JTAG interface. There was an error near the end of the upload:
+```Info : JTAG tap: riscv.cpu tap/device found: 0x1000563d (mfg: 0x31e (Andes Technology Corporation), part: 0x0005, ver: 0x1)
+Warn : JTAG tap: riscv.cpu       UNEXPECTED: 0x1000563d (mfg: 0x31e (Andes Technology Corporation), part: 0x0005, ver: 0x1)
+Error: JTAG tap: riscv.cpu  expected 1 of 1: 0x1e200a6d (mfg: 0x536 (Nuclei System Technology Co.,Ltd.), part: 0xe200, ver: 0x1)
+Info : JTAG tap: auto0.tap tap/device found: 0x790007a3 (mfg: 0x3d1 (GigaDevice Semiconductor (Beijing)), part: 0x9000, ver: 0x7)
+Error: Trying to use configured scan chain anyway...
+```
+This error doesn't seem to prevent an upload. You can clean up the error by editing the file `~/.platformio/packages/tool-openocd-gd32v/share/openocd/scripts/target/gd32vf103.cfg`
+and changing line 2 from:
+
+`jtag newtap $_CHIPNAME cpu -irlen 5 -expected-id 0x1e200a6d`
+
+to:
+
+`jtag newtap $_CHIPNAME cpu -irlen 5 -expected-id 0x1000563d`
+
+Yet another PR for me to consider pursuing.
